@@ -1,4 +1,4 @@
-service: som-qualtrics-survey-responses
+service: test-som-qualtrics-survey-responses
 variablesResolutionMode: 20210326
 provider:
   name: aws

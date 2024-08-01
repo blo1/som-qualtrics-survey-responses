@@ -31,7 +31,7 @@ provider:
     QUALTRICS_DATA_CENTER: "ucsf.co1"
 
 custom:
-  outputBucket: 'test-som-qualtrics-survey-responses-${opt:stage, self:provider.stage}'
+  outputBucket: 'test17708-som-qualtrics-survey-responses-${opt:stage, self:provider.stage}'
   qualtricsApiToken: ${ssm:/aws/reference/secretsmanager/test/som/qualtrics/api_key}
   isScheduleEnabled:
     prod: true
